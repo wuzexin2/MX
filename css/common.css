@@ -1,0 +1,198 @@
+/*导航*/
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+#active
+{
+	background-color: gray;
+	color: #FFFFFF;
+}
+/*contact*/
+.juzhong {
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    padding: 90px 0;
+}
+#contact{
+    background: url("../images/bg1.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 30px;
+}
+#contact h4{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+#contact .glyphicon {
+    font-size: 30px;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#footer .title  p{
+    font-size: 30px;
+    color: #fff;
+    
+    padding: 0 10px;
+    z-index: 2;
+}
+#footer .ico{
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 100%;
+    margin:0px 10px;
+}
+#footer .ico i{
+    font-size: 24px;
+    color: #fff;
+}
+#footer  .qq {
+    background-color: #12b7f5;
+}
+#footer  .wechat {
+    background-color: #24b727;
+}
+#footer  .weibo {
+    background-color: #ea493c;
+}
+/*footer*/
+#footer{
+   
+    padding:20px ;
+    background-color: #aaa;
+}
+.fx{
+    clear: both;
+}
+/*server*/
+#server{
+    padding: 80px 0;
+    text-align: center;
+}
+#serrver .col-md-4{
+    padding: 15px;
+}
+#server .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+#server a{
+    color: #212121;
+    text-decoration: none;
+}
+#server img{
+    margin: 0 auto;
+}
+#server h1{
+	margin-bottom: 50px;
+}
+#server .block_hover .btn{
+	display: block;
+	background-color: #676AFE;
+	margin: 0 auto;
+	border-radius: 5%;
+}
+#server .block_unhover .btn{
+	display: none;
+}
+#server .block_hover p{
+	display:none;
+}
+
+#server .block_hover h3{
+		color: #676AFE;
+		font-weight: bold;
+}
+
+#server .block_unhover h3{
+	   color: #333333;
+	font-weight: bold;
+}
+#home{
+    margin-top: 70px;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
